@@ -1,0 +1,22 @@
+<div style="width: 650px">
+    <div class="curalate-container">
+        <div class="curalate-inner">
+            <div class="instagram-img-holder">
+                <img ng-src="{{items[gridData.currentImage].photo.medium_square.url}}" alt="" />
+            </div>
+            <div class="instagram-content-holder">
+                <h5 ng-bind-html="items[gridData.currentImage].user.username"></h5>
+                <p class="instagram-like-count">{{items[gridData.currentImage].like_count}}</p>
+                <p class="instagram-caption" ng-bind-html="items[gridData.currentImage].caption"></p>
+            </div>
+        </div>
+        <div class="curalate-nav" ng-show="gridData.imgCount > 1">
+            <p>
+                <a class="mini-image-switcher mis-prev icon-L_arrow"
+                    ng-click="actions.setCurrentImage(gridData, (gridData.currentImage-1))"></a>
+                <a class="mini-image-switcher mis-next icon-R_arrow"
+                    ng-click="actions.setCurrentImage(gridData, (gridData.currentImage+1))"></a>
+            </p>
+        </div>
+    </div>
+</div>

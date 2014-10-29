@@ -1,0 +1,73 @@
+
+.curalate-container {
+    text-align: center;
+    margin: 1em 0;
+    position: relative;
+    border-top: #aaa 1px solid;
+    padding: 20px 0;
+}
+
+.curalate-container .curalate-inner {
+    margin: 0 80px;
+}
+
+.curalate-container .curalate-inner .instagram-img-holder,
+.curalate-container .curalate-inner .instagram-content-holder {
+    display: inline-block;
+    width: 48%;
+}
+
+.curalate-container .curalate-inner .instagram-img-holder {
+
+}
+
+.curalate-container .curalate-inner .instagram-img-holder img {
+    max-width: 213px;
+    max-height: 213px;
+}
+
+.curalate-container .curalate-inner .instagram-content-holder {
+    vertical-align: middle;
+}
+
+.instagram-like-count {
+    margin-bottom: 15px;
+}
+
+.curalate-container .curalate-inner .instagram-content-holder .instagram-caption {
+    margin: 10px 12.5%;
+
+}
+
+.instagram-like-count:before {
+    font-family: icomoon;
+    font-size: 20px;
+    display: block;
+    content: 'h';
+    margin: .15em auto;
+}
+
+.curalate-container .curalate-nav {
+
+}
+
+.curalate-container .curalate-nav a.mini-image-switcher {
+    text-decoration: none;
+}
+
+.curalate-container .curalate-nav .icon-L_arrow:before, .curalate-container .curalate-nav .icon-R_arrow:before {
+    font-family: icomoon;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+}
+
+.curalate-container .curalate-nav .icon-L_arrow:before {
+    content: "\6c";
+    left: 0
+}
+
+.curalate-container .curalate-nav .icon-R_arrow:before {
+    content: "\72";
+    right: 0
+}

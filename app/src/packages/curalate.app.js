@@ -1,0 +1,9 @@
+angular
+.module(
+    'curalate',
+    [
+        'ngRoute',
+        'ngResource',
+        'curalate.testCtrl'
+    ]
+)
